@@ -60,8 +60,11 @@ table {
 /*  GLOBAL STYLES*/
 body{
     display: grid;
+    grid-template-columns: 1fr;
 }
 /* MEDIA QUERY (medium) */
-
+@media screen and (min-width:941px){
+    
+}
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
