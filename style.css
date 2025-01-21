@@ -64,10 +64,20 @@ body{
 }
 /* MEDIA QUERY (medium) */
 @media screen and (min-width:941px){
-    
+
  body{
     grid-template-columns: 1fr 1fr;
  }
 }
 /* MEDIA QUERY (large) */
+@media screen and (min-width: 1200px) {
+    body {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
 /* MEDIA QUERY (xl) */
+@media screen and (min-width: 1600px) {
+    body {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
